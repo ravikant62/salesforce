@@ -56,3 +56,17 @@ For details about developing against orgs that don’t have source tracking, see
 Don’t deploy your code to production directly from Visual Studio Code. The deploy and retrieve commands do not support transactional operations, which means that a deployment can fail in a partial state. Also, the deploy and retrieve commands don’t run the tests needed for production deployments. The push and pull commands are disabled for orgs that don’t have source tracking, including production orgs.
 
 Deploy your changes to production using [packaging](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_dev2gp.htm) or by [converting your source](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_source.htm#cli_reference_convert) into metadata format and using the [metadata deploy command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_mdapi.htm#cli_reference_deploy).
+
+## Part 4: How to Run the Code
+Pre-requisite: Visual Studio Code IDE, Git Cli
+Checkout the code locally. Add the checked out code to the Visual Studio Code Workspace. 
+Follow the following steps to execute the Junit,
+1. Press:- Ctrl + Shift + P on windows or Command + Shift + P on Mac and type Authorize an Org
+2. Select the Project Default
+3. We can use the default alias or provide an alias name and Press Enter (make sure nothing is running on 1717 port)
+4. It will open the browser to login on salesforce environment, provide the following credential
+   username : ravikant.pandey@xyz.com
+   password : Success#4321
+5. Once logged in close the browser and can see the Authorization is successfull on Visual Studio Code
+6. Search for package.xml, open the file and right click and select 'Deploy Source in Manifest to Org'
+7. Run the Junit 'Dividend_Account_Test.cls'
