@@ -1,0 +1,118 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 4,
+        "passing": 4,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Feb 29, 2020 11:20 AM",
+        "testExecutionTime": "1864 ms",
+        "testTotalTime": "1864 ms",
+        "commandTime": "3888 ms",
+        "hostname": "https://eu29.salesforce.com",
+        "orgId": "00D3X000004WpWMUA0",
+        "username": "ravikant.pandey@xyz.com",
+        "testRunId": "7073X000086f8Ow",
+        "userId": "0053X00000BWRfxQAH"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006Tk8YUAS"
+            },
+            "Id": "07M3X000006Tk8YUAS",
+            "QueueItemId": "7093X000000ltP6QAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073X000086f8OwQAI",
+            "MethodName": "validateShareWhenTotalOnAccountIsNegative",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000FbpKTQAZ"
+                },
+                "Id": "01p3X00000FbpKTQAZ",
+                "Name": "Dividend_Account_Test",
+                "NamespacePrefix": null
+            },
+            "RunTime": 1204,
+            "FullName": "Dividend_Account_Test.validateShareWhenTotalOnAccountIsNegative"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006Tk8ZUAS"
+            },
+            "Id": "07M3X000006Tk8ZUAS",
+            "QueueItemId": "7093X000000ltP6QAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073X000086f8OwQAI",
+            "MethodName": "validateShareWhenTotalOnAccountIsNull",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000FbpKTQAZ"
+                },
+                "Id": "01p3X00000FbpKTQAZ",
+                "Name": "Dividend_Account_Test",
+                "NamespacePrefix": null
+            },
+            "RunTime": 185,
+            "FullName": "Dividend_Account_Test.validateShareWhenTotalOnAccountIsNull"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006Tk8aUAC"
+            },
+            "Id": "07M3X000006Tk8aUAC",
+            "QueueItemId": "7093X000000ltP6QAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073X000086f8OwQAI",
+            "MethodName": "validateShareWhenTotalOnAccountIsPresent",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000FbpKTQAZ"
+                },
+                "Id": "01p3X00000FbpKTQAZ",
+                "Name": "Dividend_Account_Test",
+                "NamespacePrefix": null
+            },
+            "RunTime": 190,
+            "FullName": "Dividend_Account_Test.validateShareWhenTotalOnAccountIsPresent"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v47.0/tooling/sobjects/ApexTestResult/07M3X000006Tk8bUAC"
+            },
+            "Id": "07M3X000006Tk8bUAC",
+            "QueueItemId": "7093X000000ltP6QAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073X000086f8OwQAI",
+            "MethodName": "validateShareWhenTotalOnAccountIsZero",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v47.0/tooling/sobjects/ApexClass/01p3X00000FbpKTQAZ"
+                },
+                "Id": "01p3X00000FbpKTQAZ",
+                "Name": "Dividend_Account_Test",
+                "NamespacePrefix": null
+            },
+            "RunTime": 285,
+            "FullName": "Dividend_Account_Test.validateShareWhenTotalOnAccountIsZero"
+        }
+    ]
+}

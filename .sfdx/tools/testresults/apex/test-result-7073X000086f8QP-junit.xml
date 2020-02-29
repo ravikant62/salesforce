@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-02-29T11:22:13+00:00" hostname="https://eu29.salesforce.com" tests="4" failures="0"  errors="0"  time="0.95">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="4"/>
+            <property name="passing" value="4"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Feb 29, 2020 11:22 AM"/>
+            <property name="testExecutionTime" value="0.95 s"/>
+            <property name="testTotalTime" value="0.95 s"/>
+            <property name="commandTime" value="3.18 s"/>
+            <property name="hostname" value="https://eu29.salesforce.com"/>
+            <property name="orgId" value="00D3X000004WpWMUA0"/>
+            <property name="username" value="ravikant.pandey@xyz.com"/>
+            <property name="testRunId" value="7073X000086f8QP"/>
+            <property name="userId" value="0053X00000BWRfxQAH"/>
+        </properties>
+        <testcase name="validateShareWhenTotalOnAccountIsNegative" classname="Dividend_Account_Test" time="0.4">
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsNull" classname="Dividend_Account_Test" time="0.17">
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsPresent" classname="Dividend_Account_Test" time="0.19">
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsZero" classname="Dividend_Account_Test" time="0.2">
+        </testcase>
+    </testsuite>
+</testsuites>

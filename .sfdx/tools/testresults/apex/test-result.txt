@@ -1,0 +1,36 @@
+=== Test Reports
+FORMAT  FILE
+──────  ────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     /Users/ravi/Salesforce/salesforce/.sfdx/tools/testresults/apex/test-result.txt
+txt     /Users/ravi/Salesforce/salesforce/.sfdx/tools/testresults/apex/test-run-id.txt
+junit   /Users/ravi/Salesforce/salesforce/.sfdx/tools/testresults/apex/test-result-7073X000086f8QP-junit.xml
+json    /Users/ravi/Salesforce/salesforce/.sfdx/tools/testresults/apex/test-result-7073X000086f8QP.json
+
+=== Test Results
+TEST NAME                                                        OUTCOME  MESSAGE  RUNTIME (MS)
+───────────────────────────────────────────────────────────────  ───────  ───────  ────────────
+Dividend_Account_Test.validateShareWhenTotalOnAccountIsNegative  Pass              396
+Dividend_Account_Test.validateShareWhenTotalOnAccountIsNull      Pass              168
+Dividend_Account_Test.validateShareWhenTotalOnAccountIsPresent   Pass              192
+Dividend_Account_Test.validateShareWhenTotalOnAccountIsZero      Pass              197
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ────────────────────────────
+Outcome              Passed
+Tests Ran            4
+Passing              4
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Feb 29, 2020 11:22 AM
+Test Execution Time  953 ms
+Test Total Time      953 ms
+Command Time         3176 ms
+Hostname             https://eu29.salesforce.com
+Org Id               00D3X000004WpWMUA0
+Username             ravikant.pandey@xyz.com
+Test Run Id          7073X000086f8QP
+User Id              0053X00000BWRfxQAH
+

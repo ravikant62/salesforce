@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-02-29T11:20:49+00:00" hostname="https://eu29.salesforce.com" tests="4" failures="1"  errors="0"  time="1.02">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="4"/>
+            <property name="passing" value="3"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="75%"/>
+            <property name="failRate" value="25%"/>
+            <property name="testStartTime" value="Feb 29, 2020 11:20 AM"/>
+            <property name="testExecutionTime" value="1.02 s"/>
+            <property name="testTotalTime" value="1.02 s"/>
+            <property name="commandTime" value="3.12 s"/>
+            <property name="hostname" value="https://eu29.salesforce.com"/>
+            <property name="orgId" value="00D3X000004WpWMUA0"/>
+            <property name="username" value="ravikant.pandey@xyz.com"/>
+            <property name="testRunId" value="7073X000086f8PL"/>
+            <property name="userId" value="0053X00000BWRfxQAH"/>
+        </properties>
+        <testcase name="validateShareWhenTotalOnAccountIsNegative" classname="Dividend_Account_Test" time="0.37">
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsNull" classname="Dividend_Account_Test" time="0.18">
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsPresent" classname="Dividend_Account_Test" time="0.27">
+            <failure message="System.AssertException: Assertion Failed: Expected: 25.11, Actual: 25.10"><![CDATA[Class.Dividend_Account_Test.assertContact: line 109, column 1
+Class.Dividend_Account_Test.validateShareWhenTotalOnAccountIsPresent: line 22, column 1]]></failure>
+        </testcase>
+        <testcase name="validateShareWhenTotalOnAccountIsZero" classname="Dividend_Account_Test" time="0.21">
+        </testcase>
+    </testsuite>
+</testsuites>
